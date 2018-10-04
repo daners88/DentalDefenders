@@ -22,7 +22,7 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: contentFace
       value: 
-      objectReference: {fileID: 1391567143757438, guid: 4a6a59121492c1e4b959fd0efc7bd818,
+      objectReference: {fileID: 1659205305881536, guid: 95e6afdaa1b07fe4682d891520f9b290,
         type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 0}
@@ -96,7 +96,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d252aefba02ba21458ddd29be648aebd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  contentFace: {fileID: 1391567143757438, guid: 4a6a59121492c1e4b959fd0efc7bd818,
+  contentFace: {fileID: 1659205305881536, guid: 95e6afdaa1b07fe4682d891520f9b290,
     type: 2}
   type: stain
 --- !u!114 &114504053928033336
