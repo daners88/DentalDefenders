@@ -19,16 +19,21 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.2
       objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: contentFace
+      value: 
+      objectReference: {fileID: 1391567143757438, guid: 4a6a59121492c1e4b959fd0efc7bd818,
+        type: 2}
     m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 0}
+  m_SourcePrefab: {fileID: 0}
   m_RootGameObject: {fileID: 1671827857373026}
-  m_IsPrefabParent: 0
+  m_IsPrefabAsset: 0
 --- !u!1 &1671827857373026
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 4063553594521860}
   - component: {fileID: 212544143073295932}
@@ -46,7 +51,7 @@ GameObject:
 --- !u!4 &4063553594521860
 Transform:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1671827857373026}
   m_LocalRotation: {x: 0.65413356, y: 0.004615961, z: -0.024670316, w: 0.7559626}
@@ -59,7 +64,7 @@ Transform:
 --- !u!61 &61990225024374940
 BoxCollider2D:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1671827857373026}
   m_Enabled: 1
@@ -85,7 +90,7 @@ BoxCollider2D:
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1671827857373026}
   m_Enabled: 1
@@ -102,7 +107,7 @@ Animator:
 --- !u!114 &114007432632794352
 MonoBehaviour:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1671827857373026}
   m_Enabled: 1
@@ -129,7 +134,7 @@ MonoBehaviour:
 --- !u!114 &114592556382109144
 MonoBehaviour:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1671827857373026}
   m_Enabled: 1
@@ -137,11 +142,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d252aefba02ba21458ddd29be648aebd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  contentFace: {fileID: 1391567143757438, guid: 4a6a59121492c1e4b959fd0efc7bd818,
+    type: 2}
   type: bacteria
 --- !u!212 &212544143073295932
 SpriteRenderer:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1671827857373026}
   m_Enabled: 1
@@ -183,3 +190,4 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+  m_SpriteSortPoint: 0

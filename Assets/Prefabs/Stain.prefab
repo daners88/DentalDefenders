@@ -19,16 +19,21 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: contentFace
+      value: 
+      objectReference: {fileID: 1391567143757438, guid: 4a6a59121492c1e4b959fd0efc7bd818,
+        type: 2}
     m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 0}
+  m_SourcePrefab: {fileID: 0}
   m_RootGameObject: {fileID: 1995669509864798}
-  m_IsPrefabParent: 0
+  m_IsPrefabAsset: 0
 --- !u!1 &1995669509864798
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 4359436816440204}
   - component: {fileID: 212899404836121420}
@@ -45,7 +50,7 @@ GameObject:
 --- !u!4 &4359436816440204
 Transform:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1995669509864798}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -58,7 +63,7 @@ Transform:
 --- !u!61 &61656328118752790
 BoxCollider2D:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1995669509864798}
   m_Enabled: 1
@@ -83,7 +88,7 @@ BoxCollider2D:
 --- !u!114 &114039094029563586
 MonoBehaviour:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1995669509864798}
   m_Enabled: 1
@@ -91,11 +96,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d252aefba02ba21458ddd29be648aebd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  contentFace: {fileID: 1391567143757438, guid: 4a6a59121492c1e4b959fd0efc7bd818,
+    type: 2}
   type: stain
 --- !u!114 &114504053928033336
 MonoBehaviour:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1995669509864798}
   m_Enabled: 1
@@ -122,7 +129,7 @@ MonoBehaviour:
 --- !u!212 &212899404836121420
 SpriteRenderer:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1995669509864798}
   m_Enabled: 1
@@ -164,3 +171,4 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+  m_SpriteSortPoint: 0

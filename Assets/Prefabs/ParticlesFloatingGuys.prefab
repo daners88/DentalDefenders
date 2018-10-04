@@ -125,6 +125,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d252aefba02ba21458ddd29be648aebd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  contentFace: {fileID: 1391567143757438, guid: 4a6a59121492c1e4b959fd0efc7bd818,
+    type: 2}
   type: cloud
 --- !u!212 &212183836783771300
 SpriteRenderer:

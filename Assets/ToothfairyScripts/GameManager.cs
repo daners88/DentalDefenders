@@ -120,8 +120,12 @@ namespace Assets.ToothfairyScripts
                         {
                             flosser.transform.localScale -= new Vector3(0.00075F, 0.00075F, 0.00075F);
                         }
-                        washer.GetComponent<Character>().isSelected = true;
-                        washer.transform.localScale += new Vector3(0.00075F, 0.00075F, 0.00075F);
+                        
+                        if (!washer.GetComponent<Character>().isSelected)
+                        {
+                            washer.transform.localScale += new Vector3(0.00075F, 0.00075F, 0.00075F);
+                            washer.GetComponent<Character>().isSelected = true;
+                        }
 
                         brusher.GetComponent<Character>().isSelected = false;
                         flosser.GetComponent<Character>().isSelected = false;
@@ -137,8 +141,11 @@ namespace Assets.ToothfairyScripts
                         {
                             flosser.transform.localScale -= new Vector3(0.00075F, 0.00075F, 0.00075F);
                         }
-                        brusher.GetComponent<Character>().isSelected = true;
-                        brusher.transform.localScale += new Vector3(0.00075F, 0.00075F, 0.00075F);
+                        if (!brusher.GetComponent<Character>().isSelected)
+                        {
+                            brusher.transform.localScale += new Vector3(0.00075F, 0.00075F, 0.00075F);
+                            brusher.GetComponent<Character>().isSelected = true;
+                        }
 
                         washer.GetComponent<Character>().isSelected = false;
                         flosser.GetComponent<Character>().isSelected = false;
@@ -154,8 +161,11 @@ namespace Assets.ToothfairyScripts
                         {
                             brusher.transform.localScale -= new Vector3(0.00075F, 0.00075F, 0.00075F);
                         }
-                        flosser.GetComponent<Character>().isSelected = true;
-                        flosser.transform.localScale += new Vector3(0.00075F, 0.00075F, 0.00075F);
+                        if (!flosser.GetComponent<Character>().isSelected)
+                        {
+                            flosser.transform.localScale += new Vector3(0.00075F, 0.00075F, 0.00075F);
+                            flosser.GetComponent<Character>().isSelected = true;
+                        }
 
                         washer.GetComponent<Character>().isSelected = false;
                         brusher.GetComponent<Character>().isSelected = false;
